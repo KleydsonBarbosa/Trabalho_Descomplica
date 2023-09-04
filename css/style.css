@@ -1,0 +1,25 @@
+/* Reset de margens e preenchimentos para garantir um layout consistente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img01, .img02, .img03{
+    width: 1920px;
+    height: 950px;
+    top: -30px;
+}
+
+.carousel-caption01, .carousel-caption02,
+.carousel-caption03{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-150%); /* Centraliza horizontalmente */
+    bottom: 60%; /* Espaço a partir do fundo */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+
+}
